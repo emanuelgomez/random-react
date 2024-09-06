@@ -56,7 +56,7 @@ export const Component = () => {
                 aria-label="Scroll left"
                 onClick={() => scroll('left')}
             >
-                back
+                previous
             </button>
 
             <div className="grid-container" ref={gridRef}>

@@ -25,6 +25,8 @@ body{
   margin: 0;
   color: var(--button-color);
   cursor: pointer;
+  width: 80px;
+  height: 80px;
 }
 
 .icon-button.show {

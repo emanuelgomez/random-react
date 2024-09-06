@@ -1,0 +1,77 @@
+:root {
+  --border-radius: 8px;
+  --button-color: white;
+  --card-background-color: #f8f9fa;
+}
+body{
+  background-color: white;
+  overflow-x: hidden;
+  width: 100%;
+}
+/* Container styling */
+.container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  /*max-width: 50%;*/
+  /*justify-content: center;*/
+  margin: 0 2rem;
+}
+
+/* Icon button styling */
+.icon-button {
+  border: none;
+  margin: 0;
+  color: var(--button-color);
+  cursor: pointer;
+}
+
+.icon-button.show {
+  display: inline-flex;
+}
+
+/* Grid container styling */
+.grid-container {
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+  grid-auto-columns: 30%;
+  width: 20%;
+  overflow-x: hidden;
+  margin: 2rem 3rem;
+  scroll-snap-type: x mandatory;
+}
+
+/* Grid item styling */
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  color: black;
+  background-color: var(--card-background-color);
+  scroll-snap-align: start;
+}
+
+/* Circle styling */
+.circle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+/* Header styling */
+.item-header {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+h2 {
+  margin: 0;
+  word-break: break-word;
+}

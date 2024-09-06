@@ -7,7 +7,7 @@ function App() {
     <>
         <>
             {
-                Array.from({ length: 300 }, (_, index) => (
+                Array.from({ length: 1000 }, (_, index) => (
                     <Component key={index} />
                 ))
             }
